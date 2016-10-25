@@ -1,0 +1,52 @@
+.wrapper {
+    margin: 5%;
+}
+form > div {
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    padding: 30px 160px 30px 30px;
+    border-bottom: 1px solid #79005E;
+}
+form > div:last-child {
+    border: none;
+}
+div > label {
+    display: block;
+    float: left;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #79005E;
+}
+div > input {
+    /*display: block;*/
+    float: right;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+button {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border-bottom: 3px solid #799E00;
+    background-color: #96B62E;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #fff;
+    -webkit-box-shadow: inset 0px 9px 7px -5px rgba(217,249,112,1);
+    -moz-box-shadow: inset 0px 9px 7px -5px rgba(217,249,112,1);
+    box-shadow: inset 0px 9px 7px -5px rgba(217,249,112,1);
+}
+.hint {
+    position: absolute;
+    display: block;
+    padding: 3px;
+    top: 15%;
+    right: 5%;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid #D9F970;
+    color: #799E00;
+    background-color: #fff;
+}
